@@ -1,0 +1,33 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.teatarea textarea {width: 100%;}
+
+input[type=radio] {margin-right: .25rem;float: none;    margin-left: 10px;border: 2px solid #7e8993;}
+
+.radio-button input[type=radio]:checked:before {content: "";border-radius: 50%;    width: .5rem;    height: .5rem;margin: 2px;background-color: #1e8cbe;line-height: 1.14285714;margin-left: 2px;}
+
+.checkout {width: 99%;height: 208px;}
+.table th {font-size: 16px;font-weight: 700;}
+
+.promocopy-outer input {width: 30%; border-radius: 0;background: #fff;}
+.promocopy-outer button {padding: 5px;width: 10%;}
+.promocopy-outer {margin-top: 25px;}
+
+.container {margin: 0 auto;}
+.container ul.tabs {margin: 0px;padding: 0px;list-style: none;font-weight: 700;}
+
+.container ul.tabs li {background: none;color: #222;display: inline-block;padding: 10px 15px;cursor: pointer;font-size: 1.3em;}
+
+.container ul.tabs li.current {background: #ededed;color: #00669b;border-bottom: 2px solid #00669b;}
+
+
+
+.tab-content {display: none;}
+.tab-content.current {display: inherit;}
+.radio-button {display: flex;border: 2px solid;width:20%;padding: 15px;border-radius: 5px;align-items: center;}
+
+.radio-button:hover {border-color: #00669b;}
+.tab-container {border: 1px solid;padding: 30px;margin-top: 50px;border-radius: 10px;}

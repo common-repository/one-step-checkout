@@ -1,0 +1,28 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.codenrich-row {display: flex;flex-wrap: wrap;align-items: flex-start;justify-content: center;}
+.codenrich-row .one-column {width: 100%;}
+.codenrich-row .two-column {width: 50%;padding: 10px;}
+.button, button, input[type="button"], input[type="reset"], input[type="submit"]{font-weight: 500 !important;}
+
+@media only screen and (min-width: 1168px) {
+    .entry .entry-content>* {max-width: 100% !important;}
+}
+@media screen and (min-width: 56.875em) {
+    .sidebar {display: block !important;margin-left: 0 !important;padding: 0;width: 50% !important;}
+}
+@media screen and (min-width: 56.875em) {
+    .content-area {float: none !important;margin-right: -100%;width: 100% !important;}
+}
+.entry-content>*:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {max-width: 130rem !important;width: 100%;}
+@media screen and (min-width: 48em) {
+    .wrap {max-width: 1200px !important;padding-left: 3em;padding-right: 3em;}
+}
+@media only screen and (max-width: 1023px) {
+    .codenrich-row .two-column {width: 100%;padding: 10px;}
+    .woocommerce #customer_details .col-1, .woocommerce #customer_details .col-2 {width: 100% !important;}
+    .coupon .input-text+.button{    float: left !important; width:100% !important; }
+}
